@@ -6,7 +6,7 @@ const Accordian = ({ header, body }) => {
 
   return (
     <div
-      className={`w-[25em] border-2 border-gray-200 p-5 rounded ${
+      className={`w-[25em] border-2 border-gray-200 p-5 rounded lg:hidden ${
         isOpen ? "bg-gray-100" : null
       }`}
     >
