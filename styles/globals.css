@@ -5,8 +5,10 @@
 html {
   scroll-behavior: smooth;
   font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ededed;
 }
 
 .custom-img {
   background-image: url("https://images.unsplash.com/photo-1664339164546-b563e83d6a4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
 }
+/* //background-color: rgb(254, 214, 16); */
