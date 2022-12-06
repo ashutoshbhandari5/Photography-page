@@ -8,7 +8,7 @@ const Accordian = ({ header, body }) => {
     <div className="w-[25em]">
       <div
         style={{ background: "rgb(254, 214, 16)" }}
-        className="bg-rose-100 border-gray-200 p-5 rounded-md lg:hidden mb-2"
+        className="bg-rose-100 border-gray-200 p-5 rounded-md mb-2"
       >
         <div className="flex justify-between ">
           <h2 className="font-bold">{header}</h2>
@@ -31,7 +31,7 @@ const Accordian = ({ header, body }) => {
 
 const AccordianLayout = ({ items }) => {
   return (
-    <div className="bg-white p-8 rounded border-neutral-300">
+    <div className="bg-white p-8 rounded lg:hidden border-neutral-300">
       {items.map((el, i) => (
         <Accordian key={i} header={el.header} body={el.body} />
       ))}
